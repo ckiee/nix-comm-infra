@@ -11,6 +11,18 @@
         "url": "https://github.com/timokau/marvin-mk2/archive/b3dd8c02a5c01dcf0e9cc8789846a0ec980f534b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nixos-generators": {
+        "branch": "master",
+        "description": "Collection of image builders [maintainer=@Lassulus]",
+        "homepage": "",
+        "owner": "nix-community",
+        "repo": "nixos-generators",
+        "rev": "537b572d3ab1549b26801ba2d5fc023fab963747",
+        "sha256": "16c8v5rjrg59c7x15mpbqb2d133rw2fjdg1kn6wxkj36rl67a249",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/nixos-generators/archive/537b572d3ab1549b26801ba2d5fc023fab963747.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nixpkgs": {
         "branch": "nixos-unstable-small",
         "description": "Nix Packages collection",

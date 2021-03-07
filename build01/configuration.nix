@@ -17,7 +17,7 @@
 
   # /boot is a mirror raid
   boot.loader.grub.devices = [ "/dev/sda" "/dev/sdb" ];
-  boot.loader.grub.enable = true;
+  boot.loader.grub.enable = lib.mkDefault true;
   boot.loader.grub.version = 2;
 
   networking.hostName = "nix-community-build01";
